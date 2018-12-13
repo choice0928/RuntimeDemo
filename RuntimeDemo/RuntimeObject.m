@@ -39,7 +39,7 @@ void testImp (void) {
 }
 
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
-          
+             
     if (aSelector == @selector(test)) {
         NSLog(@"methodSignatureForSelector");
         return [NSMethodSignature signatureWithObjCTypes:"v@:"];
